@@ -29,10 +29,14 @@
     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
     font-style: italic;
     padding-top: 26px;
+    padding-left: 45px;
+    text-align: center;
 }
 
 .links {
     padding-top: 26px;
+    padding-right: 35px;
+    text-align: right;
   }
 
 .links a {
@@ -40,7 +44,6 @@
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
   }
 
   header {
@@ -54,24 +57,40 @@
   h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   h2 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 7px;
+  }
+
+  h5{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h5 span {
+    color: #dddddd;
+    font-family: 'nobileregular', sans-serif;
     font-size: 20px;
   }
 
-  h2 span {
-    color: #dddddd;
-    font-family: 'nobileregular', sans-serif;
+  h4{
+    font-size: 20px;
+  }
+
+  h6 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
   }
 
   .next-quote {
     color:#f84342;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .footer-blurb {
@@ -89,6 +108,11 @@
     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   }
 
+  .caption {
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+  }
+
   @media (max-width: 750px) {
     .footer-blurb {
       text-align: left;
@@ -102,3 +126,5 @@
   ::selection {
     background-color: #f84342;
   }
+
+  

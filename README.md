@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+#Create quote
+Quote.create(saying: 'Example 1.', author: 'Mark Cuban')
+
+#Updating a quote
+Quote.find(id).update_attributes(saying: ‘your text here’, author: ‘your text here’)
